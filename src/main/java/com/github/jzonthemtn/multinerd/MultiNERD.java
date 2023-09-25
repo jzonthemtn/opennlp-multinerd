@@ -80,7 +80,7 @@ public class MultiNERD implements Converter {
 
             sb.append("\n");
 
-            System.out.print(sb.toString());
+            //System.out.print(sb.toString());
             FileUtils.writeStringToFile(outputFile, sb.toString(), Charset.defaultCharset(), true);
 
         }
