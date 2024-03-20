@@ -1,3 +1,3 @@
-#!/bin/bash
+#!/bin/bash -e
 
-mvn clean install
+mvn clean package
